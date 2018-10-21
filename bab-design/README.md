@@ -1,6 +1,6 @@
 # Blockchain@Berkeley Design Website
 
-Design Heads: Angela, Maggie
+Design Heads: Angela, Maggie <br>
 Designers: Chris Hu, Daniel Covelli, George Bian, Jonathan Wang, Christian Reyes
 
 Version 0.0.0 Beta Beta Beta Updated @ 10/21/18
