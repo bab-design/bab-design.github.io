@@ -1,3 +1,14 @@
+#Blockchain@Berkeley Design Website
+
+Design Heads: Angela, Maggie
+Designers: Chris Hu, Daniel Covelli, George Bian, Jonathan Wang, Christian Reyes
+
+Version 0.0.0 Beta Beta Beta Updated @ 10/21/18
+
+A Blockchain@Berkeley Department
+
+##Below is Create React App Documentation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
