@@ -5,6 +5,9 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 import LandingApp from './apps/landingApp';
 import ProjectsApp from './apps/projectsApp';
+import EduApp from './apps/projects/eduApp';
+import UiuxApp from './apps/projects/uiuxApp';
+import MiscApp from './apps/projects/miscApp';
 import AboutApp from './apps/aboutApp';
 
 import logo from './logo.svg';
@@ -32,9 +35,9 @@ export default class App extends Component {
                 </LinkContainer>
                 <LinkContainer to='/projects'>
                   <NavDropdown className='page' inverse eventKey={2} title="Projects" id="basic-nav-dropdown">
-                    <LinkContainer to='/projects/edu'><MenuItem eventKey={2.1}>Design x Education</MenuItem></LinkContainer>
-                    <LinkContainer to='/projects/uiux'><MenuItem eventKey={2.2}>UI/UX Research</MenuItem></LinkContainer>
-                    <LinkContainer to='/projects/misc'><MenuItem eventKey={2.3}>Miscellaneous</MenuItem></LinkContainer>
+                    <LinkContainer to='/edu'><MenuItem eventKey={2.1}>Design x Education</MenuItem></LinkContainer>
+                    <LinkContainer to='/uiux'><MenuItem eventKey={2.2}>UI/UX Research</MenuItem></LinkContainer>
+                    <LinkContainer to='/misc'><MenuItem eventKey={2.3}>Miscellaneous</MenuItem></LinkContainer>
                   </NavDropdown>
                 </LinkContainer>
                 <LinkContainer to='/about'>
@@ -54,9 +57,9 @@ export default class App extends Component {
           <Route exact path='/' component={LandingApp} />
           <Route path='/home' component={LandingApp} />
           <Route path='/projects' component={ProjectsApp} />
-          <Route path='/projects/edu' component={ProjectsApp} />
-          <Route path='/projects/uiux' component={ProjectsApp} />
-          <Route path='/projects/misc' component={ProjectsApp} />
+          <Route path='/edu' component={EduApp} />
+          <Route path='/uiux' component={UiuxApp} />
+          <Route path='/misc' component={MiscApp} />
           <Route path='/about' component={AboutApp} />
         </div>
       </Router>

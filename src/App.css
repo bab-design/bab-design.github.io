@@ -21,16 +21,21 @@
   color: #ddd;
 }
 
-.navbar-nav > li {
-  padding-right: 5px;
-}
-
-.page:focus {
-  background-color: red;
-}
-
 .navbar-brand {
   height: 40px;
   display: flex;
   align-items: center;
+}
+
+.navbar-nav > li {
+  padding-right: 5px;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+  ul.nav li.dropdown > ul.dropdown-menu {
+    display: none;
+  }
 }

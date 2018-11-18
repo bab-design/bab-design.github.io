@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import '../common/common.css';
+import logo from '../../logo.svg';
+import '../../common/common.css';
 
-export default class ProjectsApp extends Component {
+export default class MiscApp extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to PROJECTS HOMEPAGE!!!!!!!</h2>
+          <h2>Welcome to MIIIISCELLANOUS</h2>
         </div>
       </div>
     );
