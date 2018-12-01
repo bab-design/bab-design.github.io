@@ -34,7 +34,7 @@ export default class App extends Component {
                   <NavItem className='page' eventKey={1}>Home</NavItem>
                 </LinkContainer>
                 <LinkContainer to='/projects'>
-                  <NavDropdown className='page' inverse eventKey={2} title="Projects" id="basic-nav-dropdown">
+                  <NavDropdown className='page' inverse eventKey={2} title="Projects">
                     <LinkContainer to='/edu'><MenuItem eventKey={2.1}>Design x Education</MenuItem></LinkContainer>
                     <LinkContainer to='/uiux'><MenuItem eventKey={2.2}>UI/UX Research</MenuItem></LinkContainer>
                     <LinkContainer to='/misc'><MenuItem eventKey={2.3}>Miscellaneous</MenuItem></LinkContainer>

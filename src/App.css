@@ -1,5 +1,6 @@
 .short {
   height: 0;
+  padding-top: 10px;
   border: none;
 }
 
@@ -14,7 +15,7 @@
 .title {
   color: white;
   font-size: 18px;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .title:hover {
@@ -27,8 +28,25 @@
   align-items: center;
 }
 
-.navbar-nav > li {
+ul.nav > li {
   padding-right: 5px;
+}
+
+ul.nav li.dropdown > ul.dropdown-menu {
+  background-color: #222;
+}
+
+ul.nav li.dropdown > ul.dropdown-menu > li > a {
+  color: #ccc;
+}
+
+ul.nav li.dropdown > ul.dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #444;
+}
+
+ul.nav li.dropdown > ul.dropdown-menu > li > a:focus {
+  background-color: #222;
 }
 
 @media (min-width: 979px) {
